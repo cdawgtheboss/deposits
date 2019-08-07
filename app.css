@@ -4,4 +4,37 @@ body{
 
 th{
     background-color: rgb(249, 251, 252);
+    text-align: left;
+    padding: 10px;
+    color: rgb(155, 162, 176);
+}
+
+td{
+    padding: 5px;
+    font-size: .8em;
+}
+
+tr {
+    border-bottom: solid 1px red}
+
+table {
+    border-collapse: collapse;
+}
+
+.table_style{
+    font-size: 24px;
+
+}
+
+#table_header_color{
+    color: black;
+}
+
+header :hover{
+    color: rgb(95, 179, 219);
+}
+
+header{
+    color: rgb(155, 162, 176);
+    font-size: 24px;
 }
