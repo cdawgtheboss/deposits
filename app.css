@@ -4,6 +4,16 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+header :hover{
+    color: rgb(95, 179, 219);
+}
+
+header{
+    color: rgb(155, 162, 176);
+    font-size: 24px;
+    width: 100%
+}
+
 header span{
     padding: 10px;
     margin: 25px 0px 15px 40px;
@@ -35,6 +45,21 @@ td{
     font-size: .8em;
 }
 
+.property_alignment, .property_alignment div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.property_alignment img{
+    height: 100%;
+}
+
+.flexing_width{
+    width: 75%;
+}
+
+
 .subtext{
     color: rgb(155, 162, 176);
     font-size: 12px;
@@ -63,14 +88,4 @@ table {
 
 #table_header_color{
     color: black;
-}
-
-header :hover{
-    color: rgb(95, 179, 219);
-}
-
-header{
-    color: rgb(155, 162, 176);
-    font-size: 24px;
-    width: 100%
 }
