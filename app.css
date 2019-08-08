@@ -1,12 +1,14 @@
 body{
     color: rgb(54, 66, 80);
     margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
 }
 
 header span{
     padding: 10px;
     margin: 25px 0px 15px 40px;
 }
+
 
 .user_info{
     justify-content: right;
@@ -33,7 +35,10 @@ td{
     font-size: .8em;
 }
 
-
+.subtext{
+    color: rgb(155, 162, 176);
+    font-size: 12px;
+}
 
 td img{
     border-radius: 45px;
@@ -67,4 +72,5 @@ header :hover{
 header{
     color: rgb(155, 162, 176);
     font-size: 24px;
+    width: 100%
 }
