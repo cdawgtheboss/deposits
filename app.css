@@ -1,5 +1,15 @@
 body{
     color: rgb(54, 66, 80);
+    margin-top: 20px;
+}
+
+header span{
+    padding: 10px;
+    margin: 25px 0px 15px 40px;
+}
+
+header img{
+    border-radius: 45px;
 }
 
 th{
@@ -14,8 +24,17 @@ td{
     font-size: .8em;
 }
 
+td img{
+    border-radius: 45px;
+}
+
 tr {
-    border-bottom: solid 1px red}
+    border-bottom: solid 1px rgb(236, 238, 242)
+}
+
+#no_border{
+    border-bottom: none;
+}
 
 table {
     border-collapse: collapse;
