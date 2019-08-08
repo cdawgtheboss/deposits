@@ -8,8 +8,17 @@ header span{
     margin: 25px 0px 15px 40px;
 }
 
+.user_info{
+    justify-content: right;
+    display: inline;
+}
+
 header img{
     border-radius: 45px;
+}
+
+header i{
+    margin: 0px 30px 0px 20px;
 }
 
 th{
@@ -23,6 +32,8 @@ td{
     padding: 5px;
     font-size: .8em;
 }
+
+
 
 td img{
     border-radius: 45px;
