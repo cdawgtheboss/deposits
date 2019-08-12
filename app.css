@@ -2,6 +2,7 @@ body{
     color: rgb(54, 66, 80);
     margin-top: 20px;
     font-family: 'Nunito', sans-serif;
+    
 }
 
 header :hover{
@@ -11,28 +12,50 @@ header :hover{
 header{
     color: rgb(155, 162, 176);
     font-size: 24px;
-    width: 100%
+    width: 100%; 
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header span{
     padding: 10px;
     margin: 25px 0px 15px 40px;
+    border: 1px solid greenyellow; 
 }
 
-header span, header div{
-}
 
 .user_info{
-    justify-content: right;
-    display: inline;
+  /*  justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    border: 1px solid red; */
 }
 
 header img{
     border-radius: 45px;
+    border: 1px solid blue;
 }
 
 header i{
     margin: 0px 30px 0px 20px;
+    align-content: flex-end;
+    border: 2px solid orange;
+}
+
+.fa-envelope{
+    border: 2px solid purple;
+}
+
+.left_images{
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.right_images{
+    margin-left: -15px;
+    z-index: 1;
 }
 
 th{
@@ -71,7 +94,7 @@ td img{
     border-radius: 45px;
 }
 
-tr {
+tr{
     border-bottom: solid 1px rgb(236, 238, 242)
 }
 
@@ -79,13 +102,13 @@ tr {
     border-bottom: none;
 }
 
-table {
+table{
     border-collapse: collapse;
 }
 
 .table_style{
-    font-size: 24px;
-
+    font-size: 16px;
+    width: 1230px;
 }
 
 #table_header_color{
@@ -95,7 +118,12 @@ table {
 #button_flex{
     display: flex;
     flex-direction: row;
+    border: 1px solid blue;
     justify-content: space-between;
+}
+
+#button_flex div{
+    border: 1px solid red;
 }
 
 button{
@@ -103,7 +131,10 @@ button{
     color: rgb(221, 255, 243);
     border-radius: 15px;
     font-size: 14px;
-    /* width: 205px; */
+    font-weight: 700;
+  /*  width: 205px;  */
     /* padding: 0 45px 0 45px; */
-    width: 18%;
+    padding: 0px;
+    flex-basis: 15%;
+    margin-left: 25px;
 }
