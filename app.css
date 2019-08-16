@@ -15,35 +15,32 @@ header{
     width: 100%; 
     margin-bottom: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 header span{
     padding: 10px;
-    border: 1px solid greenyellow; 
+    flex: 1;
 }
 
 
 .user_info{
-  /*  justify-content: space-around;
     display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    border: 1px solid red; */
+    align-items: center;
+    justify-content: space-between;
 }
 
 header img{
     border-radius: 45px;
-    border: 1px solid blue;
+    margin-top: 10px;
 }
 
 header i{
-    align-content: flex-end;
-    border: 2px solid orange;
+    font-size: 16px;
 }
 
 .fa-envelope{
-    border: 2px solid purple;
+    flex: 2;
 }
 
 .left_images{
@@ -54,6 +51,9 @@ header i{
 .right_images{
     margin-left: -15px;
     z-index: 1;
+}
+
+#container{
 }
 
 th{
@@ -102,11 +102,14 @@ tr{
 
 table{
     border-collapse: collapse;
+    margin-left: 15px;
 }
 
 .table_style{
     font-size: 16px;
-    width: 1230px;
+    width: 75%;
+    margin-left: 20px;
+    padding-left: 10px;
 }
 
 #table_header_color{
@@ -116,12 +119,11 @@ table{
 #button_flex{
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
     justify-content: space-between;
+    width:
 }
 
 #button_flex div{
-    border: 1px solid red;
 }
 
 button{
