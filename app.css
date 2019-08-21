@@ -41,7 +41,6 @@ header i{
     flex: 1;
 }
 
-
 .left_images{
     border: 1px solid rgb(255, 255, 255);
     z-index: 1;
@@ -52,8 +51,8 @@ header i{
     z-index: 0;
 }
 
-#positioning{
-    position: absolute;
+.left_images, .right_images{
+    position: relative;
 }
 
 th{
