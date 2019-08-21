@@ -44,15 +44,16 @@ header i{
 
 .left_images{
     border: 1px solid rgb(255, 255, 255);
-    z-index: 2;
+    z-index: 1;
 }
 
 .right_images{
     margin-left: -15px;
-    z-index: 1;
+    z-index: 0;
 }
 
-#container{
+#positioning{
+    position: absolute;
 }
 
 th{
@@ -60,11 +61,6 @@ th{
     text-align: left;
     padding: 10px;
     color: rgb(155, 162, 176);
-}
-
-td{
-    padding: 5px;
-    font-size: .8em;
 }
 
 .property_alignment, .property_alignment div{
