@@ -46,8 +46,11 @@ header i{
     flex: 1;
 }
 
+.image_flex{
+    display: flex;
+}
+
 .left_images{
-    border: 1px solid rgb(255, 255, 255);
     z-index: 1;
 }
 
@@ -58,6 +61,9 @@ header i{
 
 .left_images, .right_images{
     position: relative;
+    align-content: center;
+    border: 1px solid rgb(255, 255, 255);
+
 }
 
 th{
@@ -85,6 +91,7 @@ th{
 .subtext{
     color: rgb(155, 162, 176);
     font-size: 12px;
+    width: 50px;
 }
 
 td img{
